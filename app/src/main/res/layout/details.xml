@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/otherActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/StandardMargin"
+            android:text="@string/take_a_look_at_app_feature"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/StandardTextSize" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:layout_gravity="center"
+            android:contentDescription="@string/_1"
+            android:src="@drawable/one" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_2"
+            android:src="@drawable/two" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_3"
+            android:src="@drawable/three" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_4"
+            android:src="@drawable/four" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_5"
+            android:src="@drawable/five" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_6"
+            android:src="@drawable/six" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_7"
+            android:src="@drawable/seven" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_8"
+            android:src="@drawable/eight" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_9"
+            android:src="@drawable/nine" />
+
+        <ImageView
+            android:layout_width="@dimen/StandardImageWidth"
+            android:layout_height="@dimen/StandardImageHeight"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/StandardMargin"
+            android:contentDescription="@string/_10"
+            android:src="@drawable/ten" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/StandardMargin"
+            android:text="@string/the_language_we_cover"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/StandardTextSize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/StandardMargin"
+            android:contentDescription="@string/support_language"
+            android:src="@drawable/different_lang" />
+
+        <Button
+            android:id="@+id/learning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/StandardBottomMargin"
+            android:background="@color/DarkGreen"
+            android:text="@string/start_learning_today"
+            android:textSize="@dimen/StandardTextSize" />
+
+    </LinearLayout>
+
+</ScrollView>

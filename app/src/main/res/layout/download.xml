@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/otherActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/SmallMargin"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sololearn"
+        android:contentDescription="@string/sololearn" />
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/play_store"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/StoreImageWidth"
+        android:layout_height="@dimen/StoreImageHeight"
+        android:src="@drawable/google_play_badge"
+        android:focusable="true"
+        android:contentDescription="@string/googleplaystore" />
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/app_store"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/StoreImageWidth"
+        android:layout_height="@dimen/StoreImageHeight"
+        android:padding="11dp"
+        android:src="@drawable/apple_store"
+        android:focusable="true"
+        android:contentDescription="@string/appstore" />
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/web"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/StoreImageWidth"
+        android:layout_height="@dimen/StoreImageHeight"
+        android:padding="10dp"
+        android:src="@drawable/sololearn_dwnl"
+        android:focusable="true"
+        android:contentDescription="@string/website" />
+
+
+</LinearLayout>

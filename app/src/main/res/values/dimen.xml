@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="StandardTextSize">24sp</dimen>
+    <dimen name="StandardMargin">16dp</dimen>
+    <dimen name="StandardImageWidth">350dp</dimen>
+    <dimen name="StandardImageHeight">500dp</dimen>
+    <dimen name="StandardBottomMargin">24dp</dimen>
+    <dimen name="LargeMargin">32dp</dimen>
+    <dimen name="SmallMargin">16dp</dimen>
+    <dimen name="SmallestMargin">8dp</dimen>
+
+    <dimen name="StoreImageWidth">360dp</dimen>
+    <dimen name="StoreImageHeight">90dp</dimen>
+
+</resources>

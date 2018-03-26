@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGreen"
+    android:orientation="horizontal"
+    tools:context="com.example.admin.landing_hike.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/sololearn_background"
+        android:contentDescription="@string/background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sololearn_name"
+                    android:textColor="@color/White"
+                    android:contentDescription="@string/sololearn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/varela_round"
+                    android:text="@string/everyone_can_code"
+                    android:textAllCaps="true"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/StandardTextSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/SmallestMargin"
+                android:layout_marginTop="@dimen/StandardMargin"
+                android:fontFamily="@font/varela_round"
+                android:text="@string/join_the_largest_community_of_mobile_code_learners_today"
+                android:textAlignment="viewStart"
+                android:textColor="@color/White"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/SmallestMargin"
+                android:layout_marginTop="@dimen/SmallMargin"
+                android:layout_marginBottom="@dimen/SmallMargin"
+                android:fontFamily="@font/varela_round"
+                android:text="@string/free_fun_effective_learning_what_can_be_better"
+                android:textAlignment="center"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_above="@id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/StandardBottomMargin"
+            android:layout_marginEnd="@dimen/StandardMargin"
+            android:layout_marginStart="@dimen/StandardMargin"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/SmallestMargin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SmallMargin"
+                    android:text="@string/_22_804_554"
+                    android:textColor="@color/DarkGreen"
+                    android:textSize="@dimen/StandardTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/varela_round"
+                    android:text="@string/learners"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/StandardTextSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/SmallestMargin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SmallMargin"
+                    android:text="@string/_1253"
+                    android:textColor="@color/DarkGreen"
+                    android:textSize="@dimen/StandardTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/varela_round"
+                    android:text="@string/lessons"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/StandardTextSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/SmallestMargin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SmallMargin"
+                    android:text="@string/_11_353"
+                    android:textColor="@color/DarkGreen"
+                    android:textSize="@dimen/StandardTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/varela_round"
+                    android:text="@string/quizzes"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/StandardTextSize" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/SmallestMargin"
+            android:layout_marginEnd="@dimen/LargeMargin"
+            android:layout_marginStart="@dimen/LargeMargin">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/start"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/SmallestMargin"
+                android:background="@color/DarkGreen"
+                android:fontFamily="@font/varela_round"
+                android:text="@string/start_learning_n_now"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/more"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/SmallestMargin"
+                android:background="@color/DarkGreen"
+                android:fontFamily="@font/varela_round"
+                android:text="@string/explore_n_more"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+</RelativeLayout>
